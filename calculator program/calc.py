@@ -1,4 +1,4 @@
-# this is a mini python calculator program
+# this is a simple python calculator program
 operator = input("enter an operator: ")
 num1 = float(input('enter the first number: '))
 num2 = float(input('enter the second number: '))
@@ -15,3 +15,5 @@ elif operator == '*':
 elif operator == '/':
     result = num1 / num2
     print(result)      
+else:
+    print(f"{operator} is invalid, try again")    
