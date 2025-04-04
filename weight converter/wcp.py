@@ -9,10 +9,11 @@ unit = input("in kilograms(Kg) or pounds(Lbs): ")
 if unit == "kilograms":
     weight = weight * 2.205
     unit = 'Lbs'
+    print(f"your weight in {unit} is {weight} {unit}")          
 elif unit == "pounds":
     weight = weight / 2.205
     unit = 'Kg' 
+    print(f"your weight in {unit} is {weight} {unit}")          
 else:
     print(f"{unit} was invalid, try again") 
 
-print(f"your weight in {unit} is {weight} {unit}")          
