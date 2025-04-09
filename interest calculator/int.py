@@ -15,4 +15,4 @@ while time <= 0:
     if time <= 0:
         print('time can not be less than or equal to zero')
 total_amount = principal * pow((1 + rate / 100), time)
-print(f"your new total amount after {time} years/s is ${total_amount}")
+print(f"your new total amount after {time} years/s is ${total_amount: .2f}")
