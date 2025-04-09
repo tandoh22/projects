@@ -5,4 +5,4 @@ time = 0
 while principal <= 0:
     principal = float(input('enter the principal amount: '))
     if principal <= 0:
-        print()
+        print('principal amount can not be less than or equal to zero')
