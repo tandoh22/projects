@@ -6,6 +6,10 @@ total = 0
 
 while True:
     shirt = input("enter a brand to buy: ")
-    if shirt == "e":
+    if shirt.lower() == "e":
         break
-    
+    else:
+        price = float(input("enter the price of a {shirt}: $"))
+        shirts.append(shirt)
+        prices.append(price)
+print("<<<<<< YOUR CART >>>>>>")
