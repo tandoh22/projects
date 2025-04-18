@@ -34,3 +34,11 @@ for question in questions:
     
     question_num += 1
 
+print("---------------")
+print("RESULTS")
+print("---------------")
+
+if score >= 80:
+   print(f"GREAT JOB!, your total score is: {score}%")
+else: 
+   print(f"you scored {score}%, better luck next time")
