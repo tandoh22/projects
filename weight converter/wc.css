@@ -35,10 +35,9 @@ form .heading{
     justify-self: start;
     margin: 20px;
 }
-form .kg{
+form .weight{
     margin-bottom: 10px;
     display: flex;
-}
-form .pounds{
-    margin-left: 150px;
+    justify-content: space-between;
+    margin-bottom: 15px;
 }
