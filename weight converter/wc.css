@@ -38,9 +38,12 @@ form .heading{
 }
 form .weight{
     margin-bottom: 10px;
-    display: flex;
+    display: block;
     justify-content: space-between;
     margin-bottom: 15px;
+}
+form .weight input{
+    border: 1px solid grey;
 }
 form .weight label{
     color: #e3f9ff;
