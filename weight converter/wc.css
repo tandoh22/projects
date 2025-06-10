@@ -29,10 +29,11 @@
     font-size: 12px;
 }
 form .heading{
-    font-size: 20px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
     color: #e3f9ff;
     display: flex;
-    justify-self: start;
     margin: 20px;
 }
 form .weight{
@@ -40,6 +41,10 @@ form .weight{
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
+}
+form .weight label{
+    color: #e3f9ff;
+    padding-left: 8px;
 }
 form .button {
     display: flex;
