@@ -14,6 +14,8 @@ let convertFromLbs = () => {
 kgRef.addEventListener("input", convertFromKg);
 lbsRef.addEventListener("input", convertFromLbs);
 
-window.addEventListener("load", convertFromKg);
 
-let button = document.getElementById('btn')
+let button = document.getElementById('btn');
+
+button.addEventListener('click', convertFromKg);
+button.addEventListener('click', convertFromLbs);
