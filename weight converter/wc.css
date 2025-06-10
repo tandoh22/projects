@@ -36,6 +36,13 @@ form .heading{
     display: flex;
     margin: 20px;
 }
+.p1{
+    font-size: 15px;
+    justify-content: left;
+    color: black;
+    display: flex;
+    margin: 10px;
+}
 form .weight{
     margin-bottom: 10px;
     display: block;
@@ -44,6 +51,7 @@ form .weight{
 }
 form .weight input{
     border: 1px solid grey;
+    padding-left: 5px;
 }
 form .weight label{
     color: #e3f9ff;

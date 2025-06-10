@@ -12,6 +12,7 @@ let convertFromLbs = () => {
     kgRefRef.value = (lbs / 2.205).toFixed(2);
 };
 
-
 button.addEventListener('click', convertFromKg);
 button.addEventListener('click', convertFromLbs);
+
+window.addEventListener('load', convertFromKg);
