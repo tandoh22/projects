@@ -13,3 +13,20 @@
     align-items: center;
     justify-content: center;
 }
+.weightconverter{
+    background: blueviolet;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.weightconverter form input{
+    border: 0;
+    width: 120px;
+}
+form .heading{
+    font-size: 20px;
+    color: #e3f9ff;
+    display: flex;
+    justify-self: start;
+    margin: 20px;
+}
