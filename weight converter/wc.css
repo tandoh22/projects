@@ -41,3 +41,14 @@ form .weight{
     justify-content: space-between;
     margin-bottom: 15px;
 }
+form .button {
+    display: flex;
+    justify-content: center;
+}
+form .button input{
+    text-align: center;
+    background: rgb(255, 51, 0);
+    cursor: pointer;
+    color: #e3f9ff;
+    
+}
