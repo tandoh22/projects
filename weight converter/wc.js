@@ -1,5 +1,6 @@
 let kgRef = document.getElementById("kg");
 let lbsRef = document.getElementById("lbs");
+let button = document.getElementById('btn');
 
 let convertFromKg = () => {
     let kg = kgRef.value;
@@ -11,11 +12,6 @@ let convertFromLbs = () => {
     kgRefRef.value = (lbs / 2.205).toFixed(2);
 };
 
-kgRef.addEventListener("input", convertFromKg);
-lbsRef.addEventListener("input", convertFromLbs);
-
-
-let button = document.getElementById('btn');
 
 button.addEventListener('click', convertFromKg);
 button.addEventListener('click', convertFromLbs);
