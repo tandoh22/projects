@@ -21,7 +21,12 @@
 }
 .weightconverter form input{
     border: 0;
+    border-radius: 5px;
     width: 120px;
+    height: 20px;
+    text-align: left;
+    color: black;
+    font-size: 12px;
 }
 form .heading{
     font-size: 20px;
@@ -29,4 +34,11 @@ form .heading{
     display: flex;
     justify-self: start;
     margin: 20px;
+}
+form .kg{
+    margin-bottom: 10px;
+    display: flex;
+}
+form .pounds{
+    margin-left: 150px;
 }
